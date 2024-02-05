@@ -1,4 +1,4 @@
-#CS336 - Information Retrieval
+# CS336 - Information Retrieval
 This project is an application that helps people search for the song's name based on a given audio from the user. We use the Neural Audio Fingerprint model which was proposed in a paper published in 2021, [NEURAL AUDIO FINGERPRINT FOR HIGH-SPECIFIC AUDIO RETRIEVAL BASED ON CONTRASTIVE LEARNING](https://arxiv.org/pdf/2010.11910.pdf) to embed audio, FAISS for getting items, and design the metric to calculate the similarity between each candidate song and the input audio.
 
 ## Install
