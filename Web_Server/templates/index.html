@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+<div class="container1">
+    <div id="blue-section" class="blue-section">
+        <h1 class="slide-in">Audio Recorder</h1>
+        <a><img id="record-image" class="logo-image clickable fade-in" src="{{ url_for('static', filename='imgs/logos/mic.png') }}" alt="Your Image"></a>
+        <h1 id="recording-time" class="fade-in"></h1>
+    </div>
+    <div class="white-section" id="white-section">
+        <h1 id="header-text" class="black-header fade-in"> <span class="arrow-left">←</span> Click the Logo to record your sound</h1>
+        <div id="spinner" class="spinner fade-in d-none">
+            <div class="spinner-border" role="status"></div>
+        </div>
+        
+    </div>
+</div>
+
+{% endblock %}

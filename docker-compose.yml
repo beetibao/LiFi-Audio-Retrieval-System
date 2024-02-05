@@ -1,0 +1,13 @@
+services:
+  server:
+    build: ./API_Server
+    ports:
+      - 3241:5000
+  web:
+    build: ./Web_Server
+    ports: 
+      - 7000:5003
+    depends_on:
+      - server
+    links:
+      - server 

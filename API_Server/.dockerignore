@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.ipynb
+.gitignore
+.gitattributes
+LICENSE
+README.md

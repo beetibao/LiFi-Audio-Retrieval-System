@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Mouse Memoirs";
+    src: url("/static/font/Mouse_Memoirs/MouseMemoirs-Regular.ttf") format("truetype");
+    /* Add additional src lines for other font weights/styles if available */
+}
+
+@font-face {
+font-family: "Inter";
+src: url("/static/font/Inter/static/Inter-Regular.ttf") format("truetype");
+/* Add additional src lines for other font weights/styles if available */
+}
+
+.navbar-brand .nav-item{
+    font-family: "Mouse Memoirs";
+}
